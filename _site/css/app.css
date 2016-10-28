@@ -1540,7 +1540,12 @@ kbd {
 section.hero {
   background-image: url(../img/fruironherobg.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: center center; }
+
+section h2 {
+  color: white; }
+
+div.hero {
   min-height: 600px; }
 
 .darkbg {
