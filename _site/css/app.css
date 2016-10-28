@@ -1542,6 +1542,9 @@ section.hero {
   background-size: cover;
   background-position: center center; }
 
+.layer {
+  background-color: rgba(0, 0, 0, 0.4); }
+
 section h2 {
   color: white; }
 
