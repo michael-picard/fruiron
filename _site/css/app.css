@@ -1543,15 +1543,22 @@ section.hero {
   background-size: cover;
   background-position: center center; }
 
+div.logo {
+  margin: 10px auto; }
+
 /*.layer {
     background-color: rgba(0, 0, 0, 0.4);
 }*/
-section h2 {
+section.hero h2 {
   color: white;
-  text-shadow: 1px 1px 4px #484848; }
+  text-shadow: 1px 1px 4px #484848;
+  font-size: 3.5rem; }
 
 div.hero {
   min-height: 600px; }
 
 .darkbg {
   background-color: white; }
+
+.features p {
+  font-size: 2rem; }
