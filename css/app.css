@@ -428,7 +428,6 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1537,6 +1536,12 @@ kbd {
     order: 5; }
   .large-order-6 {
     order: 6; } }
+
+section.hero {
+  background-image: url(../img/fruironherobg.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 600px; }
 
 .darkbg {
   background-color: black; }
