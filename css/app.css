@@ -375,10 +375,10 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #333;
   background: #fefefe;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -957,7 +957,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -1069,14 +1069,14 @@ cite {
     content: '\2014 \0020'; }
 
 abbr {
-  color: #0a0a0a;
+  color: #333;
   cursor: help;
-  border-bottom: 1px dotted #0a0a0a; }
+  border-bottom: 1px dotted #333; }
 
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: normal;
-  color: #0a0a0a;
+  color: #333;
   background-color: #e6e6e6;
   border: 1px solid #cacaca;
   padding: 0.125rem 0.3125rem 0.0625rem; }
@@ -1085,7 +1085,7 @@ kbd {
   padding: 0.125rem 0.25rem 0;
   margin: 0;
   background-color: #e6e6e6;
-  color: #0a0a0a;
+  color: #333;
   font-family: Consolas, "Liberation Mono", Courier, monospace; }
 
 .subheader {
@@ -1547,7 +1547,8 @@ section.hero {
     background-color: rgba(0, 0, 0, 0.4);
 }*/
 section h2 {
-  color: white; }
+  color: white;
+  text-shadow: 1px 1px 4px #484848; }
 
 div.hero {
   min-height: 600px; }
