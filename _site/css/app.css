@@ -428,6 +428,7 @@ button {
   display: none !important; }
 
 .row {
+  max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1542,9 +1543,9 @@ section.hero {
   background-size: cover;
   background-position: center center; }
 
-.layer {
-  background-color: rgba(0, 0, 0, 0.4); }
-
+/*.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+}*/
 section h2 {
   color: white; }
 
@@ -1552,4 +1553,4 @@ div.hero {
   min-height: 600px; }
 
 .darkbg {
-  background-color: black; }
+  background-color: white; }
